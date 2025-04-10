@@ -1,7 +1,6 @@
-# heart-disease-classification-project
 # 🧠 Heart Disease Prediction – End-to-End Data Science Workflow
 
-This repository contains a complete Data Science workflow applied to a heart disease dataset. The goal is to explore, preprocess, analyze, and model the data to predict the presence of heart disease. The project follows a structured pipeline from raw data collection to model evaluation and visualization.
+This repository contains a complete Data Science workflow applied to a heart disease dataset. The goal is to explore, preprocess, analyze, and model the data to predict the presence of heart disease. The project follows a structured pipeline from raw data collection to model evaluation, visualization, and deployment.
 
 ---
 
@@ -14,6 +13,7 @@ This repository contains a complete Data Science workflow applied to a heart dis
   - Exploratory data analysis (EDA)
   - Feature engineering
   - Model building and evaluation
+  - Web app deployment using Streamlit
 
 ---
 
@@ -36,8 +36,16 @@ This repository contains a complete Data Science workflow applied to a heart dis
 - Scaled numerical features for optimal performance.
 
 ### 5. Model Development
-- Applied different machine learning models (e.g., Logistic Regression, Random Forest).
-- Evaluated using accuracy, precision, recall, and confusion matrix.
+- Applied different machine learning models such as:
+  - Logistic Regression
+  - Random Forest
+- Evaluated using:
+  - **Accuracy**
+  - **Precision**
+  - **Recall**
+  - **Confusion Matrix**
+
+> ✅ **Achieved test accuracy:** ~79% (on balanced dataset)
 
 ---
 
@@ -50,6 +58,20 @@ This repository contains a complete Data Science workflow applied to a heart dis
 
 ---
 
+## 🌐 Deployment
+
+This project is deployed as a Streamlit web application, allowing users to interact with the model through a user-friendly interface.
+
+### 🚀 Try it live:
+👉 [Heart Disease Classification App](https://heart-disease-classification-project-1.streamlit.app/)
+
+Users can:
+- Input patient health data
+- View prediction results instantly
+- Understand feature impact on decision
+
+---
+
 ## 🛠 Technologies Used
 
 - Python
@@ -57,6 +79,7 @@ This repository contains a complete Data Science workflow applied to a heart dis
 - Pandas, NumPy
 - Seaborn, Matplotlib, Plotly
 - Scikit-learn
+- Streamlit
 
 ---
 
